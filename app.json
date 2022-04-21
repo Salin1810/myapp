@@ -18,10 +18,6 @@
         "HOST": {
             "description": "Port",
             "value": "Vietnamobile.com.vn"
-        },
-        "WSPATH": {
-            "description": "WebSocket Path",
-            "value": "/"
         }
     },
     "website": "https://google.com",
