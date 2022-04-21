@@ -19,15 +19,15 @@ cat << EOF > ${DIR_TMP}/heroku.json
             }]
         },
         "streamSettings": {
-            "network": "ws",
-            "wsSettings": {
-                "headers": {
-                   "Host": "${HOST}"
-                }
+            "network": "ws"
             }
         },
         "sniffing": {
-        "enabled": false
+            "enabled": false
+        },
+       "allocate": {
+            "strategy": "always",
+            "concurrency": 3
         }
     }],
     "outbounds": [{
