@@ -16,7 +16,7 @@
             "value": "80"
         },
         "HOST": {
-            "description": "Port",
+            "description": "host",
             "value": "Vietnamobile.com.vn"
         }
     },
